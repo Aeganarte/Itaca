@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".qrCodes">
+
+    <Button
+        android:id="@+id/generar"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_x="43dp"
+        android:layout_y="84dp"
+        android:text="Generar"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/plantilla"
+        android:layout_width="331dp"
+        android:layout_height="376dp"
+        android:layout_x="42dp"
+        android:layout_y="179dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/escanear"
+        android:layout_width="328dp"
+        android:layout_height="65dp"
+        android:layout_x="46dp"
+        android:layout_y="595dp"
+        android:textSize="30sp"
+        android:text="Escanear" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe aqui" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</AbsoluteLayout>

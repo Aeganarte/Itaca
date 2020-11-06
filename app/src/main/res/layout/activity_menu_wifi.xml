@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuWifi">
+
+    <Button
+        android:id="@+id/crearqr"
+        android:layout_width="213dp"
+        android:layout_height="92dp"
+        android:text="Crear Qr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horarios" />
+
+    <Button
+        android:id="@+id/foro"
+        android:layout_width="206dp"
+        android:layout_height="88dp"
+        android:text="Foro"
+        app:layout_constraintBottom_toTopOf="@+id/enlaces"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/enlaces"
+        android:layout_width="203dp"
+        android:layout_height="90dp"
+        android:text="Enlaces"
+        app:layout_constraintBottom_toTopOf="@+id/tareas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <Button
+        android:id="@+id/tareas"
+        android:layout_width="207dp"
+        android:layout_height="96dp"
+        android:text="Tarea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/horarios"
+        android:layout_width="209dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="28dp"
+        android:text="Horario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tareas" />
+</androidx.constraintlayout.widget.ConstraintLayout>
